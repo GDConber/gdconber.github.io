@@ -177,7 +177,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      419 字
+      600 字
     </span>
   
 
@@ -187,7 +187,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      4
+      6
        分钟
     </span>
   
@@ -221,7 +221,7 @@
             
             <div class="markdown-body" id="post-body">
               <blockquote>
-<p>转自 <a target="_blank" rel="noopener" href="https://www.mcbbs.net/thread-1124030-1-1.html">https://www.mcbbs.net/thread-1124030-1-1.html</a> 原作者：龙腾猫跃<br>进行了一些修改和增加了配图</p>
+<p>Windows解决办法转自 <a target="_blank" rel="noopener" href="https://www.mcbbs.net/thread-1124030-1-1.html">https://www.mcbbs.net/thread-1124030-1-1.html</a> 原作者：龙腾猫跃<br>进行了一些修改和增加了配图</p>
 </blockquote>
 <p>自从国庆开始，移动网络基本无法使用MC正版登录，无法进入正版服务器</p>
 <p><img src="/images/20201004_1_7.png" srcset="/img/loading.gif" alt="1-7"></p>
@@ -264,10 +264,37 @@
 </blockquote>
 </li>
 </ol>
-<h2 id="Mac-OS-X-解决办法"><a href="#Mac-OS-X-解决办法" class="headerlink" title="Mac OS X 解决办法"></a>Mac OS X 解决办法</h2><ol>
+<h2 id="Mac-OS-X-amp-Linux-解决办法"><a href="#Mac-OS-X-amp-Linux-解决办法" class="headerlink" title="Mac OS X &amp; Linux 解决办法"></a>Mac OS X &amp; Linux 解决办法</h2><ol>
 <li><p>打开终端 (应用程序 &gt; 实用工具)</p>
+<blockquote>
+<p>Linux系统按 <code>Ctrl</code> + <code>Alt</code> + <code>T</code></p>
+</blockquote>
 </li>
-<li><p>在终端中输入 <code>sudo vi /etc/hosts</code><br><img src="(/images/20201004_1_8.png" srcset="/img/loading.gif" alt="1-8"></p>
+<li><p>在终端中输入 <code>sudo vi /etc/hosts</code><br><img src="/images/20201004_1_8.png" srcset="/img/loading.gif" alt="1-8"></p>
+</li>
+<li><p>根据提示输入电脑密码</p>
+<blockquote>
+<p>输入密码的时候不会有任何字符显示，甚至*都不会显示，输完之后按回车就好</p>
+</blockquote>
+</li>
+<li><p>打开文件之后按 <code>i</code> 键进入插入模式（</p>
+<blockquote>
+<p>可理解为编辑模式，如下图所示，会有「INSERT 」提示，即可插入编辑的意思</p>
+</blockquote>
+<p><img src="/images/20201004_1_9.png" srcset="/img/loading.gif" alt="1-9"></p>
+</li>
+<li><p>将光标移至文件尾部，回车换行</p>
+</li>
+<li><p>在最下面增加</p>
+<pre><code class="hljs accesslog"><span class="hljs-number">13.35.91.67</span> authserver.mojang.com
+<span class="hljs-number">99.84.198.181</span> sessionserver.mojang.com</code></pre>
+</li>
+<li><p>按 <code>ESC</code> 退出编辑模式</p>
+</li>
+<li><p>输入 <code>:</code> ，然后输入wq!，最后回车保存退出</p>
+<blockquote>
+<p>操作有点复杂，仔细查看，不知道怎么输入冒号的就按住 <code>Shift</code> 并点击 <code>；</code></p>
+</blockquote>
 </li>
 </ol>
 
