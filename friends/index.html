@@ -21,23 +21,21 @@
     <!-- meta -->
 
 
-<title>search | YuZE Blog</title>
+<title>友情链接 | YuZE Blog</title>
 
 
 
-
-    <link rel="canonical" href="http://example.com/search/index.html">
 
 
     <!-- OpenGraph -->
  
     <meta property="og:type" content="website">
-<meta property="og:title" content="search">
-<meta property="og:url" content="http://example.com/search/index.html">
+<meta property="og:title" content="友情链接">
+<meta property="og:url" content="http://example.com/friends/index.html">
 <meta property="og:site_name" content="YuZE Blog">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-10-10T13:58:32.000Z">
-<meta property="article:modified_time" content="2020-10-10T13:58:43.886Z">
+<meta property="article:published_time" content="2020-10-03T15:57:45.000Z">
+<meta property="article:modified_time" content="2020-10-10T17:12:47.084Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -173,22 +171,27 @@
     </div>
 
             
-<main class="main">
-    <div class="content-card">
-        <h2>search</h2>
-        <div id="search-card">
-    <form class="search-form" autocomplete="off">
-        <div class="search-input">
-            <input maxlength="80" type="search" class="search-input" id="search-input" name="s" placeholder="请输入关键字..." required>
+<main class="main links">
+    <div class="links-list">
+        <div class='links-content'>
+            
+                
+                    <a class='links-card button' style='background:#fff; color:#242424' target="_blank" href='https://kyln24.github.io/'>
+                        <div class='links-left'>
+                            
+                                <img no-lazy class='avatar' src='https://kyln24.github.io/head.png'/>
+                            
+                        </div>
+                        <div class='links-right'>
+                            <p class="links-name">Elsewhere</p>
+                            <p class="links-text">KYLN 的一隅小站</p>
+                            
+                            
+                        </div>
+                    </a>
+                
+            
         </div>
-        <div class="search-button">
-            <button class="search-button " type="submit">搜索</button>
-        </div>
-    </form>
-</div>
-<div id="search-result"></div>
-<script>var searchDataFile = "/search.json";</script>
-<script defer src="/js/local-search.js"></script>
     </div>
 </main>
 
@@ -403,7 +406,7 @@
                 if ('false' === 'true') {
                     var viewCtn = document.querySelector('#leancloud_container_page_pv');
                     if (viewCtn || enableIncr) {
-                        var target = decodeURI('/search/index.html');
+                        var target = decodeURI('/friends/index.html');
                         var viewGetter = getRecord(Counter, target).then((record) => {
                             incrArr.push(buildIncrement(record.objectId))
                             if (viewCtn) {

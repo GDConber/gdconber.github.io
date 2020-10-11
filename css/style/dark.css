@@ -8,9 +8,6 @@
 .cover .cover__logo img:hover {
   box-shadow: 0 2px 6px 1px rgba(36,146,165,0.4);
 }
-.links-list .links-content .links-card {
-  border-radius: 0 0 5px 5px;
-}
 .post-entry {
   cursor: pointer;
 }
